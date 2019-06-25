@@ -23,13 +23,7 @@ Taking Control
   background: #f1f1f1;
 }
 
-.footer {
-  background: #141414;
-}
 
-.footer-text {
-  color: white;
-}
 
 /* Add a black background color to the top navigation */
 .top-nav-bar {
@@ -128,3 +122,50 @@ Tab
   background-color: #3e8e41;
 }
 
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.doc-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer {
+  background: #141414;
+}
+
+.footer-text {
+  color: white;
+}
+
+.copyright {
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flex-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
